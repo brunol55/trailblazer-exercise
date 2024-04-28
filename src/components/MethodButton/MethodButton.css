@@ -1,0 +1,18 @@
+.method-box {
+  background-color: transparent;
+  color: #495057;
+  padding: 8px;
+  outline: 0.5px solid #495057;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  flex-basis: 25%;
+  border: none;
+  margin-right: 0.5px;
+}
+
+.checked,
+.method-box:hover {
+  background-color: #495057;
+  color: #f8f9fa;
+}
